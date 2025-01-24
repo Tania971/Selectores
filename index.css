@@ -1,0 +1,87 @@
+ /*selectores*/
+
+
+ /*elementos*/
+ h1 {
+    color: burlywood;
+    background-color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1020px;
+    margin: 2rem;
+    padding: 10px;
+    border: 1px solid  #E35336;
+    width: 80%;
+    text-align: center;
+}
+
+#contenedor {
+
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+color: burlywood;
+gap: 0.5rem;
+
+}
+.permi{
+    align-items: center;
+    color: burlywood;
+    gap: 0.5rem;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    }
+
+ h2{
+
+    color:burlywood;
+ }
+body{
+    background: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+
+.lista1 {
+  
+    color:burlywood;  
+    font-style: italic;
+
+}
+.lista2 
+{
+list-style: none;
+padding: 20px;
+display: inline-block;
+color:black; 
+font-style= italic;
+margin: 5px;
+}
+
+.fondo{
+    background: rgb(147, 33, 33);
+    margin:2rem;
+    border: 2%px solid  rgb(210, 79, 79);
+    width: auto;
+    padding:5px;;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background:rgb(147, 33, 33);
+    border-radius: 0.5rem;
+}
+  
